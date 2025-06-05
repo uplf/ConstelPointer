@@ -93,18 +93,19 @@
 
 | 项目名称 | 项目编号 | 观赏功能 | 焊接功能 | 通电功能 | 应用功能     | 长期功能     | 备注 |
 | -------- | -------- | -------- | -------- | -------- | ------------ | ------------ | ---- |
-| Pisces   | 1      | 1        | 1<br /> | 1        | 无法测试 | 等待下一版 | [1]  |
+| Pisces   | 1      | 1        | 0<br /> | 1        | - | 等待下一版 | 废弃[^1] |
 | Taurus | 2 | 1 | 2 | 1 | 2 | 2 |  |
+| Gemini | 1 | 未测试 | 未测试 | 未测试 | 未测试 | 未测试 | |
 
 
 
-  [^1]建议别用了，看看就好。
+
 
 ## 对应项目简介
 
-#### Pisces
+#### Pisces/Gemini
 
-本项目想要在宿舍中搭建一个物联网系统，具备开门、联网、获取温度等功能。
+本项目目的是在宿舍中搭建一个物联网系统，具备开门、联网、获取温度等功能。Pisces的PCB板设计存在缺陷，现在转到Gemini板上完成。
 
 #### Taurus
 
@@ -116,10 +117,11 @@
 
 ## PCB制版文件导航
 
-| 项目名称 | 项目编号 | 制版文件地址                                                 | 获取备注 |
-| -------- | -------- | ------------------------------------------------------------ | -------- |
-| Pisces   | 1        | github:[EDORM/hardwareFile/PCB at main · uplf/EDORM](https://github.com/uplf/EDORM/tree/main/hardwareFile/PCB) | 无要求   |
-| Taurus   | 2        | github:[uplf/happyParking](https://github.com/uplf/happyParking) |          |
+| 项目名称      | 项目编号 | 制版文件地址                                                 | 获取备注 |
+| ------------- | -------- | ------------------------------------------------------------ | -------- |
+| Pisces/Gemini | 1        | github:[EDORM/hardwareFile/PCB at main · uplf/EDORM](https://github.com/uplf/EDORM/tree/main/hardwareFile/PCB) | 无要求   |
+| Taurus        | 2        | github:[uplf/happyParking](https://github.com/uplf/happyParking) |          |
+|               |          |                                                              |          |
 
 
 
@@ -127,10 +129,10 @@
 
 ​	通向该PCB项目的软件库，该软件库包括了功能手册、源代码、开发指引以及烧录指引。
 
-| 项目名称 | 项目编号 | 软件库地址                                                   | 备注           | 获取要求          |
-| -------- | -------- | ------------------------------------------------------------ | -------------- | ----------------- |
-| Pisces   | 1        | github:[uplf/EDORM](https://github.com/uplf/EDORM/tree/main)<br/>[源代码地址-uplf](https://github.com/uplf/EDORM/tree/main/Commuter/Commuter)<br/>[开发指南-uplf](https://github.com/uplf/EDORM/blob/main/PROJECR.md) | 悲伤地中止     | 无要求            |
-| Taurus   | 2        | github:[uplf/happyParking](https://github.com/uplf/happyParking) | 祝我拿奖:pray: | 祝我拿奖先 :pray: |
+| 项目名称 | 项目编号 | 软件库地址                                                   | 备注       | 获取要求         |
+| -------- | -------- | ------------------------------------------------------------ | ---------- | ---------------- |
+| Pisces   | 1        | github:[uplf/EDORM](https://github.com/uplf/EDORM/tree/main)<br/>[源代码地址-uplf](https://github.com/uplf/EDORM/tree/main/Commuter/Commuter)<br/>[开发指南-uplf](https://github.com/uplf/EDORM/blob/main/PROJECR.md) | 等暑假开发 | 无要求           |
+| Taurus   | 2        | github:[uplf/happyParking](https://github.com/uplf/happyParking) |            | [^2]需要联系队友 |
 
 
 
@@ -138,12 +140,16 @@
 
 ​	协助开发人员将在这里展示
 
-| 项目名称 | 项目编号 | 开发角色              | 开发人员                                    |
-| -------- | -------- | --------------------- | ------------------------------------------- |
-| Pisces   | 1        | 所有任务              | github:[uplf](https://github.com/uplf)      |
-| Taurus   | 2        | 代码框架&硬件焊接协同 | github:[uplf](https://github.com/uplf)      |
-|          |          | PCB制板&技术顾问      | gitee:[waming](https://gitee.com/waming678) |
-|          |          | 精调                  | gitee:[aluo](https://gitee.com/aluohappy)   |
+| 项目名称      | 项目编号 | 开发角色              | 开发人员                                    |
+| ------------- | -------- | --------------------- | ------------------------------------------- |
+| Pisces/Gemini | 1        | 所有任务              | github:[uplf](https://github.com/uplf)      |
+| Taurus        | 2        | 代码框架&硬件焊接协同 | github:[uplf](https://github.com/uplf)      |
+|               |          | PCB制板&技术顾问      | gitee:[waming](https://gitee.com/waming678) |
+|               |          | 精调                  | gitee:[aluo](https://gitee.com/aluohappy)   |
 
 
 
+
+
+[^1]: 转到Gemini板
+[^2]: 请pull request或者联系开发名单的任意成员。
